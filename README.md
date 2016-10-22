@@ -6,7 +6,7 @@ The only dependency you need is [Docker](https://www.docker.com/)!
 
 ## Getting Started
 - Install [Docker](https://www.docker.com/)
-- Clone this repo: `git clone `
+- Clone this repo: `git clone https://github.com/nareynolds/docker-node-dev-env.git`
 - Build image, run the container, and start the app with [nodemon](http://nodemon.io/): `sh docker-run-dev`
 - Access the container's shell: `sh docker-bash.sh`
 
