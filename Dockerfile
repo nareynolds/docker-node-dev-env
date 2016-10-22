@@ -1,4 +1,4 @@
-FROM node:6.6-slim
+FROM node:6.6
 
 RUN useradd --user-group --create-home --shell /bin/false app
 
@@ -15,5 +15,3 @@ USER root
 COPY . $HOME/myapp
 RUN chown -R app:app $HOME/*
 USER app
-
-CMD ["node", "index.js"]
